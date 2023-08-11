@@ -1,13 +1,14 @@
 import './detailProduct.scss'
 import gambar1 from '../gambar/product_1.png';
 import ButtonCommerce from './buttonCommerce.jsx';
+import DescNav from './descNav'
 
 
 
 function DetailProduct(){
     return(
         <div class="container">
-		<div class="card">
+		<div class="card" id='card2'>
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
@@ -42,7 +43,8 @@ function DetailProduct(){
                             <ButtonCommerce/>
                             
 						</div>
-						<p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
+						<DescNav/>
+						{/* <p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p> */}
 						<h4 class="price">current price: <span>$180</span></h4>
 						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
 						<h5 class="sizes">sizes:
