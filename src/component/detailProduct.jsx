@@ -2,6 +2,7 @@ import './detailProduct.scss'
 import gambar1 from '../gambar/product_1.png';
 import ButtonCommerce from './buttonCommerce.jsx';
 import DescNav from './descNav'
+import GridCards from './gridCards'
 
 
 
@@ -31,6 +32,7 @@ function DetailProduct(){
 					</div>
 					<div class="details col-md-6">
 						<h3 class="product-title">Box Kado - Motif Batik</h3>
+						<h4>Rp.1.000.000 - Rp.2.000.000</h4>
 						<div class="rating">
 							<div class="stars">
 								<span class="fa fa-star checked"></span>
@@ -45,8 +47,9 @@ function DetailProduct(){
 						</div>
 						<DescNav/>
 						{/* <p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p> */}
-						<h4 class="price">current price: <span>$180</span></h4>
-						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+						<h4 class="price">Rekomendasi Produk</h4>
+						<div className='rekomendasi'><GridCards/></div>
+						{/* <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
 						<h5 class="sizes">sizes:
 							<span class="size" data-toggle="tooltip" title="small">s</span>
 							<span class="size" data-toggle="tooltip" title="medium">m</span>
@@ -61,7 +64,7 @@ function DetailProduct(){
 						<div class="action">
 							<button class="add-to-cart btn btn-default" type="button">add to cart</button>
 							<button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

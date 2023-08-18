@@ -53,11 +53,22 @@ body {
               animation-duration: .3s; }
   
   .card {
-    margin-top: 50px;
+
+    margin-top: 20px;
+ 
     background: #eee;
-    padding: 3em;
+    padding: 15px;
     line-height: 1.5em;
 
+
+    .rekomendasi{
+      background-color: #FFD6D6;
+      border-radius: 20px;
+      height: 200px;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
   }
    #card2{
     border: none;

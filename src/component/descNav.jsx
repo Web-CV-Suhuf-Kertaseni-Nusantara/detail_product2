@@ -14,9 +14,9 @@ function UnderlineExample() {
 
 
   return (
-    <div >
+    <div className='nav'>
       <Nav variant="underline" defaultActiveKey="/home">
-        <Nav.Item className='nav'>
+        {/* <Nav.Item className='nav'>
             <Nav.Link eventKey="link-1" onClick={() => handleOptionClick('link-1')}>
             Description
           </Nav.Link>
@@ -25,8 +25,9 @@ function UnderlineExample() {
           <Nav.Link eventKey="link-2" onClick={() => handleOptionClick('link-2')}>
             Details
           </Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
       </Nav>
+      <h1 className='judul'>Deskripsi</h1>
       <p className='desc'>{selectedOption === 'link-1' ? description : details}</p>
     </div>
   );
