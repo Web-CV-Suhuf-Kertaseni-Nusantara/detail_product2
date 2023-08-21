@@ -9,5 +9,7 @@
 }
 
 .desc{
-    height: 150px;
+    height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
 }

@@ -46,7 +46,12 @@ body {
   .tab-content {
     overflow: hidden; }
     .tab-content img {
-      width: 100%;
+      width: 60%;
+      
+
+
+      margin: 0px 0 0 100px;
+
       -webkit-animation-name: opacity;
               animation-name: opacity;
       -webkit-animation-duration: .3s;
@@ -107,7 +112,7 @@ body {
     color: #ff9f1a; }
   
   .product-title, .rating, .product-description, .price, .vote, .sizes {
-    margin-bottom: 15px; }
+    margin-bottom: 5px; }
   
   .product-title {
     margin-top: 0; }
